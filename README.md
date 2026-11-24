@@ -2,7 +2,7 @@
 
 Descobre, identifica e diagnostica os equipamentos da sua rede local: quem está na rede, o que cada um é, quais serviços responderam e o que merece atenção primeiro.
 
-> 📸 _Print do inventário e da topologia_
+![Painel do RUNE LanScope após uma varredura](docs/painel.png)
 
 > ⚠️ Use o Rune LanScope só em redes e equipamentos que você tem autorização para analisar.
 
@@ -52,6 +52,11 @@ Os inventários ficam no IndexedDB do navegador por 30 dias, até 25 varreduras.
 - **Tipo inferido** é uma estimativa baseada em evidências. Sem evidência suficiente, aparece como desconhecido.
 - **Prioridade** é uma ordem sugerida para revisão humana, não prova de falha.
 - **Sub-rede/VLAN** é o segmento IP observado. Uma VLAN real só se confirma com dados do switch.
+
+## Telas
+
+![Topologia em árvore e detalhes de um equipamento](docs/inventario.png)
+<sub>Topologia em árvore e detalhes de um equipamento</sub>
 
 ## Requisitos
 
